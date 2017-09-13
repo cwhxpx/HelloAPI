@@ -1,6 +1,6 @@
-module API
+module HelloGrape
     class Root < Grape::API
         prefix 'api'
-        mount API::V1::Root
+        mount HelloGrape::V1::Root
     end
 end

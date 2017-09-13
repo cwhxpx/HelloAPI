@@ -1,4 +1,4 @@
-module API
+module HelloGrape
     module V1
         class Posts < Grape::API
             version 'v1'
